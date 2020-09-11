@@ -1,0 +1,78 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Poppins, sans-serif;
+}
+
+.friends {
+    padding-top: 78px;
+}
+
+.flex {
+    display: flex;
+}
+
+.post .picture {
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    border: 1px solid black;
+    margin: 45px 0px 45px 20px;
+}
+
+.information {
+    margin: 0px 0px 0px 20px;
+    border-bottom: 1px solid #F4F6F4;
+    width: 70%;
+}
+
+.place {
+    color: orange;
+}
+
+header {
+    display: flex;
+    background-color: orange;   
+    color: white;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+}
+
+header p {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-left: 20px;
+}
+
+header .position {
+    position: absolute;
+    right: 20px;
+}
+
+footer {
+    display: flex;
+    background-color: #F4F6F4;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+}
+
+header div, footer div { 
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    border-radius: 100%;
+    margin: 10px 0px 10px 42px;
+}
+
+header div {
+    margin: 10px 0px 10px 20px;
+}
+
+/*FEED*/
+.locationPicture {
+    width: 90%;
+    display: block;
+    margin: 0 auto;
+}

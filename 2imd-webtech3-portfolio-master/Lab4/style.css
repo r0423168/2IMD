@@ -1,0 +1,67 @@
+body{
+  font:url('https://fonts.googleapis.com/css?family=Ubuntu&display=swap');
+  font-family: 'Ubuntu', sans-serif;
+  width: 300px;
+  height: 600px;
+  border: 1px solid #26536B;
+  border-radius:10px;
+  color:white;
+}
+
+.container{
+  background: #283048; 
+  background: -webkit-linear-gradient(to top, #859398, #283048);
+  background: linear-gradient(to top, #859398, #283048); 
+  border-radius:10px;
+  width: 300px;
+  height: 600px;
+}
+
+#logo{
+  height:100px;
+  width:auto;
+  margin-left:33%;
+  margin-top:10%;
+}
+
+.weather{
+  text-align:center;
+  margin-left:15%;
+  margin-right:15%;
+  margin-top:15%;
+  font-size:1.2em;
+}
+
+#forecast {
+  font-size:1.15em;
+}
+
+#temp{
+  color:#FFE47A;
+  font-weight:bold;
+  text-transform:uppercase;
+}
+
+#summary{
+  color:#FFE47A;
+  font-size:1.1em;
+  font-weight:bold;
+  text-transform:uppercase;
+}
+
+#pictogram{
+  height:100px;
+  width:100px;
+  margin-top:5%;
+}
+
+#nasa{
+  height:100px;
+  width:100px;
+  border-radius:10px;
+}
+
+#nasaTitle{
+  font-size:1.15em;
+  margin-top:20%;
+}

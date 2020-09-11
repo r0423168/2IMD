@@ -1,0 +1,284 @@
+@import url("https://p.typekit.net/p.css?s=1&k=nkl8usf&ht=tk&f=25309.25310&a=16243434&app=typekit&e=css");
+@font-face {
+  font-family: "industry";
+  src: url("https://use.typekit.net/af/2e7e09/00000000000000003b9adf5a/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i8&v=3") format("woff2"), url("https://use.typekit.net/af/2e7e09/00000000000000003b9adf5a/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i8&v=3") format("woff"), url("https://use.typekit.net/af/2e7e09/00000000000000003b9adf5a/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i8&v=3") format("opentype");
+  font-display: auto;
+  font-style: italic;
+  font-weight: 800;
+}
+
+@font-face {
+  font-family: "industry";
+  src: url("https://use.typekit.net/af/d6b712/00000000000000003b9adf58/27/l?subset_id=2&fvd=n7&v=3") format("woff2"), url("https://use.typekit.net/af/d6b712/00000000000000003b9adf58/27/d?subset_id=2&fvd=n7&v=3") format("woff"), url("https://use.typekit.net/af/d6b712/00000000000000003b9adf58/27/a?subset_id=2&fvd=n7&v=3") format("opentype");
+  font-display: auto;
+  font-style: normal;
+  font-weight: 700;
+}
+
+body {
+    position: relative;
+    background: white;
+    text-align: left;
+  }
+
+  .login-content label {
+    font-family: Industry;
+    font-style: normal;
+    font-size: 16px;
+    text-align: center;
+    color: #FFFFFF;
+    text-decoration: none;
+  }
+
+h1{
+  font-family: Industry;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 36px;
+  line-height: 43px;
+  text-align: center;
+  color: #C5FE3B;
+}
+
+h2{
+  font-family: Industry;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 43px;
+  text-align: center;
+  color: #C5FE3B;
+}
+
+.form{
+    display: -ms-grid;
+    display: grid;
+    grid-template-rows: repeat(4, 1fr);
+    grid-row-gap: 15px;
+    margin-top: 5%;
+    margin-left:20%;
+}
+
+.field{
+  background-color: #FCD7F7;
+  border-radius: 15px;
+  border-style: dashed;
+  border-width: thin;
+}
+
+.fieldA{
+  background-color: #FCD7F7;
+  border-radius: 15px;
+  border-style: dashed;
+  border-width: thin;
+}
+
+input.fieldA{
+  margin-left: 33px;
+}
+
+.login-content label {
+    font-family: Industry;
+    font-style: normal;
+    font-size: 16px;
+    text-align: center;
+    color: #C5FE3B;
+    text-decoration: none;
+  }
+
+  .login__btn {
+    display: block;
+    font-family: Industry;
+    background-color: #FCD7F7;
+    color: #1C01FF;
+    border-radius: 15px;
+    border-width: thin;
+    height:30px;
+    width:80px;
+    margin-left:25%;
+  }
+
+  .signuphere {
+    color: #C5FE3B;
+    font-family: Industry;
+  }
+
+  .register{
+    margin-top:5%;
+  }
+
+  .register a{
+    margin-left:10%;
+  }
+
+.balance{
+  font-family: Industry;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 16px;
+  line-height: 43px;
+  text-align: center;
+  color: #C5FE3B;
+  margin-top:-5.5%;
+}
+
+.from{
+  font-size:12px;
+  margin-right:5px;
+}
+
+.to{
+  font-size:12px;
+  margin-right:5px;
+}
+
+.amount{
+  font-size:12px;
+  margin-left:5px;
+}
+
+.detaillink a{
+  font-size:12px;
+  margin-left:10px;
+  text-decoration-line: none;
+  color:#1C01FF;
+}
+
+.form-row{
+  margin-top:2.5%;
+}
+
+.registerlink a{
+  font-size:12px;
+  margin-left:30px;
+  text-decoration-line: none;
+  color:#1C01FF;
+}
+
+.registerlink{
+  margin-top:5%;
+}
+
+.trays{
+  display: grid;
+  font-size:14px;
+}
+
+.trayth{
+  grid-row:7(1fr);
+  grid-column:1;
+  margin-left:20px;
+  margin-top: 1px;
+}
+
+.traydetail{
+  display: grid;
+  margin-top:-70%;
+  margin-left: 80%;
+}
+
+.traydata{
+  grid-row:7(1fr);
+  grid-column:1;
+  font-size:12px;
+  font-weight: normal;
+}
+
+.historytable{
+  margin-bottom:-24%;
+}
+
+.transfertable{
+  margin-left: 60px;
+}
+
+#search{
+  width:250px;
+  height:30px;
+}
+
+.toclass input{
+  margin-left:30px;
+}
+
+.toclass{
+  margin-top:-5%;
+}
+
+.amounttext{
+  font-size:16px;
+  margin-left:-5px;
+}
+
+.userfrom{
+  margin-top:-5%;
+}
+
+.transactionform{
+  margin-top:-5%;
+}
+
+#form-group{
+  margin-top:-2.5%;
+}
+
+.amount{
+  margin-top:-2.5%;
+}
+
+.message{
+  margin-top:-2.5%;
+}
+
+.submit{
+  margin-top:2.5%;
+}
+
+
+/* header & footer css */
+  .nav a {
+    font-family: Industry;
+    text-decoration: none;
+    font-size: 16px;
+    color: #1C01FF;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top:10px;
+    grid-row:1;
+    grid-column:2(1fr);
+  }
+  
+  .nav {
+    background-color: #FCD7F7;
+    width: 100%;
+    border-radius: 15px;
+    text-align: center;
+    height:40px;
+    display: grid;
+  }
+  
+  .footer{
+      margin-top: 45%;
+    background-color: #FCD7F7;
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 15px;
+    text-align: center;
+    height:10px;
+    display:grid;
+  }
+  
+  .footer a{
+      font-family: Industry;
+      text-decoration: none;
+      font-size: 16px;
+      color: #1C01FF;
+      margin-left: 10px;
+      margin-right: 10px;
+      margin-top:-20px;
+      grid-row:1;
+    grid-column:4(1fr);
+  }
+
+

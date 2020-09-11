@@ -1,0 +1,86 @@
+body {
+  margin:10%;
+  font: 16px "Lucida Grande", Helvetica, Arial, sans-serif;
+  text-align: center;
+  background-image: url(../images/polyworld.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+  box-sizing: border-box;
+}
+
+h1{
+  color:rgb(36, 57, 70);
+  margin-top:-2.5%;
+}
+
+a{
+  margin-top: 60%;
+  color: whitesmoke;
+  font-weight: bolder;
+  text-decoration: none;
+  border: 1px solid cadetblue;
+  border-radius: 5px;
+  padding: 7px;
+  background-color: cadetblue;
+}
+
+section{
+  margin: 2rem auto;
+  display: grid;
+}
+
+.container{
+	grid-gap: 1px;
+	justify-self: center; 
+	max-width: 292px;
+	height: auto;
+	margin: 0 auto;
+}
+
+#summaries>div{
+  border: 1px solid lightsteelblue;
+  border-radius: 10px;
+  box-shadow: lightslategray;
+  padding: 10px;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  font-size: 1rem;
+  background-color: whitesmoke;
+  color: cadetblue;
+}
+
+.revise>h1{
+  color:rgb(36, 57, 70);
+  margin-top:-2.5%;
+  font-size:1.5rem;
+}
+
+#updatesummary>label{
+  font-size: 1.15rem;
+}
+
+#country{
+  margin-left:2.5px;
+  margin-right: 2.5px;
+  border:0.5px, solid, grey;
+  font-size: 1.15rem;
+}
+
+#number{
+  border:0.5px, solid, grey;
+  border-radius: 7px;
+  font-size: 1.15rem;
+}
+
+#submit{
+  margin:10px;
+  color: whitesmoke;
+  font-weight: bolder;
+  text-decoration: none;
+  border: 1px solid cadetblue;
+  border-radius: 5px;
+  padding: 7px;
+  background-color: cadetblue;
+}

@@ -1,0 +1,29 @@
+doctype html
+html(lang='en')
+	head
+		meta(charset='UTF-8')
+		meta(name='viewport' content='width=device-width, initial-scale=1.0')
+		link(rel='stylesheet', href='/stylesheets/style.css')
+		link(href="https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2:wght@400;700&display=swap", rel="stylesheet")
+		title Revise statistics
+
+		body
+			section.revise
+				h1 Revise Statistics
+					
+				div#updatesummary
+					label(for='country') Country 
+						select#country(name='country') 
+							option(value='Belgium' selected='selected') Belgium
+							option(value='New-Zealand') New - Zealand
+							option(value='Australia') Australia
+					
+					label(for='number')  Number of confirmed corona cases  
+						input#number(type='number' name='number')
+					
+					a#submit(href='#') Revise statistics
+
+			a.nav(href='/') Back to statistics page
+	
+	script(src='https://coronamaplisa.herokuapp.com/primus/primus.js')
+	script(src='../javascripts/revise.js')

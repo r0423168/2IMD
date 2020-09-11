@@ -1,0 +1,72 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.title {
+	background-image: linear-gradient(to right, rgba(0, 0, 0, .3), rgba(0, 0, 0, .4)), url(https://template68191.motopreview.com/mt-demo/68100/68191/mt-content/uploads/2018/06/mt-1507-content-bg11.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 220px 0;
+}
+
+.inner {
+	max-width: 1200px;
+	margin-left: auto;
+    margin-right: auto;
+}
+
+.inner h1 {
+	font-weight: 500;
+    font-style: normal;
+    font-family: 'IBM Plex Serif', serif;
+    color: #ffffff;
+    font-size: 60px;
+    line-height: 1.4;
+    letter-spacing: 2px;
+    text-align: center;
+    margin: 0;
+}
+
+.inner p {
+	color: #fff;
+	text-align: center;
+	line-height: 1.4;
+}
+
+.inner span {
+	margin-right: 35px;
+}
+
+.inner h5 {
+	font-weight: 500;
+    font-style: normal;
+    font-family: 'IBM Plex Serif', serif;
+    color: #ffffff;
+    font-size: 16px;
+    text-align: center;
+    line-height: 1.4;
+    margin-top: 35px;
+}
+
+.moto-text_202 {
+	padding: 0 10px;
+}
+
+.padding {
+	margin-top: 110px;
+}
+
+.line {
+	padding: 0 10px;
+}
+
+.line hr {
+	max-width: 100%;
+    width: 100%;
+    border-top-width: 1px;
+    border-top-style: solid;
+    border-top-color: #e6e6e6;
+}

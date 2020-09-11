@@ -1,0 +1,32 @@
+{
+  "name": "heroku",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "nodemon ./bin/www"
+  },
+  "dependencies": {
+    "config": "^3.3.1",
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "express": "~4.16.1",
+    "http-errors": "~1.6.3",
+    "mongoose": "^5.9.9",
+    "morgan": "~1.9.1",
+    "nodemon": "^2.0.3",
+    "pug": "2.0.0-beta11"
+  },
+  "main": "app.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/r0423168/talk.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/r0423168/talk/issues"
+  },
+  "homepage": "https://github.com/r0423168/talk#readme",
+  "description": ""
+}

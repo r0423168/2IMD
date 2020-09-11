@@ -1,0 +1,221 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #191414;
+}
+
+.logo {
+    background: url(../img/logo.png);
+    background-size: cover;
+}
+
+.background_image {
+    height: 100%;
+    width: 100%;
+    display: block;
+    background: url(../img/billyeilish.jpg) center center;
+    background-size: cover;
+    position: fixed;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    right: 0;
+    filter: blur(13px) grayscale(40%);
+    opacity: .5;
+}
+
+div.grid-container {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+nav {
+    grid-column-start: 1 span 1;
+    position: relative;
+}
+
+nav .logo {
+    width: 150px;
+    height: 45px;
+    margin: 22px auto;
+}
+
+nav a {
+    color: #fff;
+    display: block;
+    border-bottom: 1px solid #444;
+    text-decoration: none;
+    padding: 22px;
+}
+
+div.grid-container main {
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#1db954+0,1db954+100&0.21+0,0.03+100 */
+    background: -moz-linear-gradient(45deg, rgba(29, 185, 84, 0.21) 0%, rgba(29, 185, 84, 0.03) 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(45deg, rgba(29, 185, 84, 0.21) 0%, rgba(29, 185, 84, 0.03) 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(45deg, rgba(29, 185, 84, 0.21) 0%, rgba(29, 185, 84, 0.03) 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#361db954', endColorstr='#081db954', GradientType=1);
+    /* IE6-9 fallback on horizontal gradient */
+    padding: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    min-height: 100vh;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+main h1 {
+    width: 100%;
+    display: block;
+    color: #fff;
+}
+
+main h1::after {
+    content: " ";
+    width: 70px;
+    display: block;
+    height: 7px;
+    margin: 10px;
+    background: #1DB954;
+    font-weight: bold;
+}
+
+main .artist {
+    display: block;
+    flex-grow: 1;
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    padding: 0;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
+
+main .artist img {
+    display: block;
+    border-radius: 100%;
+    margin: auto;
+    margin-bottom: 10px;
+    filter: brightness(.5) grayscale(100%);
+    transition: all 400ms ease;
+}
+main .artist:hover img{
+    border-radius: 20px;
+    filter: brightness(.8) grayscale(50%);
+}
+main.tracks{
+    display: block;
+    width: 100%;
+    background:#201a1a !important;
+}
+main ol{
+    width: 100%;
+}
+main ol li{
+    border-bottom: 1px solid #191414;
+    color: white;
+    padding: 10px;
+    width: 100%;
+}
+.user_form {
+    margin: 10vh auto;
+    width: 90%;
+    max-width: 320px;
+    color: #fff;
+    background: #191414;
+    padding: 20px;
+    border-radius: 20px;
+
+}
+
+.user_form .logo {
+    width: 236px;
+    height: 71px;
+    margin: 35px auto;
+}
+
+.user_form label,
+.user_form input {
+    display: block;
+    width: 100%;
+    font-size: 1.2em;
+    margin: 2px;
+    padding: 4px;
+}
+
+.user_form label {
+    margin-top: 15px;
+}
+
+.user_form input[type=text],
+.user_form input[type=password] {
+    border-bottom: 2px solid white;
+    background: none;
+    color: white;
+}
+
+.user_form input[type=submit] {
+    background: #1DB954;
+    color: #fff;
+    padding: 8px;
+    border-radius: 50px;
+    color: #fff;
+    margin-top: 10px;
+    text-transform: uppercase;
+}
+
+.new_user {
+    color: #1DB954;
+    text-align: center;
+    display: block;
+    font-size: .8em;
+    padding: 8px;
+}
+
+.error {
+    background-color: #ffa6a6;
+    display: block;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    border-bottom: 2px dotted tomato;
+    text-align: center;
+    padding: 5px;
+}
+
+@media screen and (min-width: 600px) {
+
+    div.grid-container {
+        display: grid;
+        grid-template-columns: 32% 68%;
+    }
+
+    nav {
+        width: 32%;
+        position: fixed;
+    }
+}
+
+@media screen and (min-width: 1100px) {
+
+    div.grid-container {
+        display: grid;
+        grid-template-columns: 16% 84%;
+    }
+
+    nav {
+        width: 16%;
+    }
+}

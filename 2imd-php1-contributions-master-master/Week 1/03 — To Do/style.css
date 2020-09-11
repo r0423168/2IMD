@@ -1,0 +1,28 @@
+body {
+    color: white;
+    padding: 0;
+    margin: 0;
+    font-family: Poppins, sans-serif;
+}
+
+.categorie {
+    position: absolute;
+    right: 15px;
+}
+
+.green, .orange, .red {
+    padding: 5px 0px 5px 15px;
+    display: flex;      
+}
+
+.green {
+    background-color: #22A51F;
+}
+
+.orange {
+    background-color: #EB851B;
+}
+
+.red {
+    background-color: #E84A17;
+}

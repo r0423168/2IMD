@@ -1,0 +1,159 @@
+body{
+    background-image: url("images/bcg.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin:0px;
+    text-align: center;
+}
+
+/*Mobile version*/
+
+.ticket{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows:100px 550px 1fr 1fr;
+    margin-bottom: 0px;
+}
+
+.ticketheader{
+    background-color: #000000;
+    color:white;
+    grid-column-start: 1;
+    grid-column-end: 3; 
+    grid-row-start: 1;
+    grid-row-end:2;
+    padding-top:15px;
+    letter-spacing: 2.5px;
+    word-spacing: 1px;
+    line-height: 40px;
+}
+
+p{
+    font-weight: 100;
+}
+
+.qrcode{
+    grid-column-start: 1;
+    grid-column-end: 3; 
+    grid-row-start:2;
+    grid-row-end: 3; 
+    align-self: center;
+}
+
+h2{
+    font-weight: 400;
+    font-size: 1.25rem;
+}
+
+.ticketdate{
+    border: 1px #000000 solid;
+    grid-column-end: 1;
+    grid-column-end: 1;
+    grid-row-start: 3;
+    grid-row-end: 3;
+}
+
+.ticketadmit{
+    border: 1px #000000 solid;
+    grid-column-end: 2;
+    grid-column-end: 2;
+    grid-row-start: 3;
+    grid-row-end: 3;
+}
+
+.ticketprice{
+    border: 1px #000000 solid;
+    grid-column-end: 1;
+    grid-column-end: 3;
+    grid-row-start: 4;
+    grid-row-end: 4;
+}
+
+.ticketinfo{
+    display:none;
+}
+
+/*Desktop version(tried: 900px converted to 56em)*/ 
+@media (min-width:56em){
+
+    .ticket{
+        grid-template-columns: 3fr 1fr 1fr;
+        grid-template-rows: 3fr 1fr 1fr;
+        box-sizing: border-box;
+        border: 1px solid black;
+        margin:10px;
+    }
+
+    .ticketheader{
+        background: none;
+        color:black;
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 1; 
+        grid-row-end: 2;
+        height:300px;
+        border-right: solid 1px black;
+    }
+
+    p{
+        margin-top: -30%;
+    }
+
+    h1{
+        margin-top:30%;
+        font-size: 5em;
+    }
+
+    h2{
+        font-weight: 600;
+    }
+
+    .qrcode{
+        grid-column-start: 2; 
+        grid-column-end: 4;
+        grid-row-start: 1;
+        grid-row-end: 2;
+        justify-self: center;
+    }
+
+    .ticketdate{
+        grid-column-start: 1;
+        grid-column-end: 1;
+        grid-row-start: 2;
+        grid-row-end: 2;
+        font-size: 1.25rem;
+        line-height: 60px;
+        border-right: solid 1px black;
+    }
+
+    .ticketadmit{
+        grid-column-start: 2;
+        grid-column-end: 2;
+        grid-row-start: 2;
+        grid-row-end: 2;
+        font-size: 1.25rem;
+        line-height: 60px;
+        border-right: solid 1px black;
+        border-left:0px;
+    }
+    .ticketprice{
+        grid-column-start: 3;
+        grid-column-end: 3;
+        grid-row-start:2;
+        grid-row-end:3;
+        font-size: 1.25rem;
+        line-height: 60px;
+        border-left:0px;
+        border-right:0px;
+    }
+
+    .ticketinfo{
+        display: unset;
+        grid-column-start: 1;
+        grid-column-end: 5;
+        grid-row-start:3;
+        grid-row-end:3;
+        font-size: 1.15rem;
+        line-height: 100px;
+    } 
+}

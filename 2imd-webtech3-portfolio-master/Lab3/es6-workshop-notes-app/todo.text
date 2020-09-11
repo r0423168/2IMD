@@ -1,0 +1,29 @@
+1. Create new note:
+    - new element (title): newNote, newP and newA --> OK
+    - add note in html --> OK
+
+2. Save notes to storage 
+    - localStorage --> OK
+    - JSON parse --> OK
+    - stringify --> OK
+
+3. Remove notes: 
+    - remove when added --> OK
+    - remove saved notes from storage --> OK
+
+1. Add note: 
+    - button click --> OK
+    - enter key --> OK
+
+2. Load notes from storage  --> OK
+
+3. Create notes --> OK
+
+4. Reset form after creating.  -->OK
+
+RESEARCH USED/CONSULTED: 
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/const
+https://stackoverflow.com/questions/23728626/localstorage-and-json-stringify-json-parse/23728844
+http://duckie.me/
+https://developer.mozilla.org/en-US/docs/Web/API/Storage/removeItem
+https://stackoverflow.com/questions/38748298/remove-array-item-from-localstorage

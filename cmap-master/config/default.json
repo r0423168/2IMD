@@ -1,0 +1,5 @@
+{
+    "Database": {
+        "conn" : "mongodb://cmap:OZGwry1mleXe5MqS@cluster0-shard-00-00-cwupj.mongodb.net:27017,cluster0-shard-00-01-cwupj.mongodb.net:27017,cluster0-shard-00-02-cwupj.mongodb.net:27017"
+        }
+}
