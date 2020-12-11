@@ -1,4 +1,4 @@
-# Link to online application: http://imdbank.baradesign.be/ (use in mobile version for best result)
+# (open in mobile version for best result)
 
 
 # ASSIGNMENT
